@@ -59,6 +59,9 @@ public class SwitchStatement01 {
            case 7:
                System.out.println("Saturday");
                break;
+           default:
+               System.out.println("Invalid day number");
+               break; //the last break is optional if you don't type it is okay.
 
        }
 
