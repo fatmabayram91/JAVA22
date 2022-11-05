@@ -42,5 +42,23 @@ public class SwitchStatement03 {
 
 
         }
+
+        /*
+        note: In switch method parenthesis you can use just the following data types;
+        int
+        byte
+        short
+        char
+        string
+
+       note: In switch method parenthesis you cannot use just the following data types;
+       long
+       float
+       double
+       boolean
+         */
+
+
+
     }
 }
