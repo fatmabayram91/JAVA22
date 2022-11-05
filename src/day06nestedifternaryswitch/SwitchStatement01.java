@@ -33,6 +33,37 @@ public class SwitchStatement01 {
         } else {
             System.out.println("What kind of user you are? Don't you know day numbers are from 1 to 7");
         }
+
+       //2.way : solve by using switch statement
+       //when to use switch? if you have more than 3 options switch is preferable
+
+       switch(dayNumber) {
+           case 1:
+               System.out.println("Sunday");
+               break; // go outside the switch statement
+           case 2:
+               System.out.println("Monday");
+               break;
+           case 3:
+               System.out.println("Tuesday");
+               break;
+           case 4:
+               System.out.println("Wednesday");
+               break;
+           case 5 :
+               System.out.println("Thursday");
+               break;
+           case 6:
+               System.out.println("Friday");
+               break;
+           case 7:
+               System.out.println("Saturday");
+               break;
+
+       }
+
+
+
     }
 }
 
