@@ -21,7 +21,10 @@ public class Sm01 {
 
         System.out.println(firstChar);
 
-  str.charAt();
+  str.charAt(str.length()-1);
+  char lastChar = str.charAt(str.length()-1);
+        System.out.println(lastChar);
+//Note:if you use '0' inside the charAt() method you will get last character in a string
 
 
 
