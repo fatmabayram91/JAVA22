@@ -36,5 +36,22 @@ public class Sm01 {
        System.out.println(lastCharacter);
 
 
+       //2.example: Type code to get initials of the first name and the last name of a given name.
+        // Ali Can ==>AC,      MARY STAR ==>MS
+
+
+        String initialOfFirstName = str.substring(0,1);
+
+        //how to find index of initial of last name
+        int indexOfInitialOfLastName = str.indexOf(" ") +1 ;
+
+       String initialOfLastName = str.substring(indexOfInitialOfLastName , indexOfInitialOfLastName+1);
+
+        System.out.println( initialOfFirstName + initialOfLastName);
+
+
+
+
+
     }
 }
