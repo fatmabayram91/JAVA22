@@ -51,6 +51,7 @@ public class Sm01 {
 
 
 //3.Example : Check if any character exists in a string or not
+        //1.Way:
         String characterToCheck = "Can";
         int result = str.indexOf("characterToCheck");
         if (result == -1) {
@@ -60,6 +61,20 @@ public class Sm01 {
             System.out.println("The character exist");
         }
 
+//2.Way: Java created a method to check if a specific character or character exist in a String or not
 
+
+        boolean isContain = str.contains("x");
+        if (isContain) {
+            System.out.println("The character exist");
+        } else {
+            System.out.println("The character does not exist");
+        }
     }
 }
+
+
+
+
+
+
