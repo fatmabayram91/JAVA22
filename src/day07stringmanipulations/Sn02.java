@@ -9,7 +9,9 @@ public class Sn02 {
   String nesStr = str.concat("!");
         System.out.println("dfs");
 
-
+        int a=32;
+        String b=String.valueOf(a);
+        System.out.println(b);
 
 
 
