@@ -6,12 +6,19 @@ public class Sn02 {
 
 
   String str = "Ali Can";
-  String nesStr = str.concat("!");
-        System.out.println("dfs");
+  String newStr = str.concat("!...").concat("Wow"); //you can do concatenation by "+" sign but using concat() is better
+        System.out.println("newStr");
+        boolean isLast = str.endsWith("n");
+        System.out.println(isLast);
+  boolean isFirst = str.startsWith("M");
+        System.out.println(isFirst);
 
-        int a=32;
-        String b=String.valueOf(a);
-        System.out.println(b);
+
+//str.startsWith("C",4) means skip first 4 characters then check if the remaining String is starting with  "C"
+       boolean isTheForth = str.startsWith("C", 4);
+        System.out.println(isTheForth); //true
+
+
 
 
 
